@@ -1,0 +1,139 @@
+/*
+    This website was written by Corey Hedberg for the purposes of the Free Code Camp Responsive Web Design Certification "Build a Product Landing Page" challenge.
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Special+Elite&display=swap");
+
+body {
+  background-color: #adadad;
+  /* margin-top: 30em; */
+}
+
+header {
+  background-color: #adadad;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  align-items: center;
+  top: 0;
+  width: 101%;
+  box-shadow: 0rem 0.8rem 1rem -1rem #000000;
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+header > img {
+  margin-left: 2rem;
+}
+
+@media only screen and (max-width: 480px) {
+  header {
+    flex-direction: wrap;
+  }
+}
+
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 40rem;
+  margin-left: 60%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+.nav-link {
+  font-family: "Special Elite";
+  text-decoration: none;
+  color: #000000;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+#pledge {
+  background-color: #bd4a4a;
+  border-radius: 0.5em;
+  margin: 12rem 10% auto 10%;
+  text-align: center;
+  font-family: "Special Elite";
+  font-size: 1.6rem;
+  box-shadow: 0 0 1rem 0.5rem rgba(0, 0, 0, 0.2),
+    0 0 1rem 0.5rem rgba(0, 0, 0, 0.19);
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+#action {
+  /* margin-top: 12rem; */
+  background-color: #bd4a4a;
+  border-radius: 0.5em;
+  margin: 8rem 10% auto 10%;
+  text-align: center;
+  font-family: "Special Elite";
+  font-size: 1.6rem;
+  box-shadow: 0 0 1rem 0.5rem rgba(0, 0, 0, 0.2),
+    0 0 1rem 0.5rem rgba(0, 0, 0, 0.19);
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+#buynow {
+  margin: 8rem 10% auto 10%;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-column-gap: 2em;
+}
+
+#prodOne,
+#prodTwo,
+#prodThree {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  border: 0.6em solid #bd4a4a;
+  background-color: #ffffff;
+  border-radius: 0.5em;
+  font-family: "Special Elite";
+  /* width: 40%; */
+  text-align: center;
+  box-shadow: 0 0 1rem 0.5rem rgba(0, 0, 0, 0.2),
+    0 0 1rem 0.5rem rgba(0, 0, 0, 0.19);
+}
+
+.prodImg {
+  height: 45%;
+  width: 45%;
+}
+
+.prodHeader {
+  font-size: 3em;
+}
+
+.prodDesc {
+  font-size: 1.5em;
+}
+
+.newsletter {
+  background-color: #bd4a4a;
+  border-radius: 0.5em;
+  margin: 8rem 10% auto 10%;
+  text-align: center;
+  font-family: "Special Elite";
+  font-size: 1.2rem;
+  box-shadow: 0 0 1rem 0.5rem rgba(0, 0, 0, 0.2),
+    0 0 1rem 0.5rem rgba(0, 0, 0, 0.19);
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+button {
+  font-family: "Special Elite";
+  font-size: 1em;
+}
+
+footer {
+  font-family: "Special Elite";
+  text-align: center;
+}

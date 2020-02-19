@@ -1,0 +1,119 @@
+<!--
+    This website was written by Corey Hedberg for the purposes of the Free Code Camp Responsive Web Design Certification "Build a Product Landing Page" challenge.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="../product_landing_page/landing_page.css"
+      media="all"
+    />
+
+    <link
+      rel="icon"
+      sizes="128x128"
+      href="../product_landing_page/media/hockey_stick.png"
+    />
+
+    <script src="../product_landing_page/landing_page.js"></script>
+
+    <title>Ice Time Hockey Gear</title>
+  </head>
+
+  <body>
+    <header id="header">
+      <img
+        src="../product_landing_page/media/header_img.png"
+        id="header-img"
+        alt="Logo with text Ice Time Hockey Gear"
+      />
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#pledge">Our Pledge</a></li>
+          <li><a class="nav-link" href="#video">Our Gear In Action</a></li>
+          <li><a class="nav-link" href="#buynow">Buy Now</a></li>
+          <li><a class="nav-link" href="#newsletter">Newsletter</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="pledge">
+      <h2>Our Pledge To You</h2>
+      <h3>
+        We will always strive to buy, sell, or trade the highest quality hockey
+        gear available. If, for any reason, you are not satisfied with your
+        purchase please contact us and we will make it right.
+      </h3>
+    </section>
+
+    <section id="action">
+      <h2>See Our Hockey Gear In Action</h2>
+      <iframe
+        id="video"
+        width="785"
+        height="455"
+        src="https://www.youtube.com/embed/JJIe_A71ESY"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </section>
+
+    <section id="buynow">
+      <div id="prodOne">
+        <img
+          src="../product_landing_page/media/hockey_player.svg"
+          alt="Hockey stick"
+          class="prodImg"
+        />
+        <h3 class="prodHeader">Sticks</h3>
+        <p class="prodDesc">Starting from $149.99</p>
+      </div>
+      <div id="prodTwo">
+        <img
+          src="../product_landing_page/media/hockey_puck.svg"
+          alt="Hockey puck"
+          class="prodImg"
+        />
+        <h3 class="prodHeader">Pucks</h3>
+        <p class="prodDesc">Starting from $4.99</p>
+      </div>
+      <div id="prodThree">
+        <img
+          src="../product_landing_page/media/hockey_skate.svg"
+          alt="Hockey skate"
+          class="prodImg"
+        />
+        <h3 class="prodHeader">Skates</h3>
+        <p class="prodDesc">Starting from $125.00</p>
+      </div>
+    </section>
+
+    <section class="newsletter" id="newsletter">
+      <h3>Sign up for our newsletter ...</h3>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="sample@email.com"
+        />
+        <br />
+        <input type="submit" id="submit" onclick="getNewsletter()" />
+      </form>
+    </section>
+
+    <footer>
+      <h4>&copy; 2019-2020 Ice Time Hockey Gear</h4>
+      <h4>All Rights Reserved</h4>
+    </footer>
+  </body>
+</html>
