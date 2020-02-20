@@ -6,7 +6,7 @@ Website to display the landing page for a product.
 
 <br>
 
-Click [here](https://cheddrs.github.io/ultimate_hockey_survey/) to view it.
+Click [here](https://cheddrs.github.io/product_landing_page/) to view it.
 
 <br>
 
