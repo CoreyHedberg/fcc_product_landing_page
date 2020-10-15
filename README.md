@@ -16,4 +16,5 @@ This website was written for the purposes of the Free Code Camp Responsive Web D
 
 ## Author
 
-**Corey Hedberg** &bull; _Software Developer_ &bull; [LinkedIn](https://www.linkedin.com/in/coreyhedberg/)
+**Corey Hedberg** | _Software Developer_ <br>
+[Website](https://coreyhedberg.dev) &bull; [LinkedIn](https://www.linkedin.com/in/coreyhedberg/)
