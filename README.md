@@ -16,8 +16,8 @@ This project was fun to complete because it gave me a sense of what it would fee
 
 ## About Project
 
-<image src="readme_files/free_code_camp_logo.png" width="38" alt="www.freecodecamp.org"><br>
-This project was completed for the "Build A Product Landing Page" challenge of the Free Code Camp Responsive Web Design certification.<br>
+[<image src="readme_files/free_code_camp_logo.png" width="38" alt="www.freecodecamp.org">](https://www.freecodecamp.org) <br>
+This project was completed for the **Build A Product Landing Page** challenge of the Free Code Camp Responsive Web Design certification.<br>
 
 ## Author
 
